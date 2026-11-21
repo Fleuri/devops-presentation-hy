@@ -158,6 +158,7 @@ backgroundSize: contain
 </div>
 
 <div v-click class="!text-2xl"> - Myös: DevSecOps </div>
+
 ---
 
 ## Miten sitten?
@@ -166,7 +167,7 @@ backgroundSize: contain
   <div v-click.hide class="absolute inset-x-0 -top-10 text-center text-[12rem] font-bold leading-none opacity-80">?</div>
 </div>
 
-<v-after>
+<div v-after class="!text-2xl">
 
 - Kulttuurinen muutos
   - Laatu sisällytetty jo suunnitteluvaiheeseen
@@ -175,8 +176,45 @@ backgroundSize: contain
 - Moniosaajatiimit (Cross-functional teams)
   - Avainhenkilöt mukana koko prosessin ajan
 
-</v-after>
+</div>
 
 ---
 
-## Measuring DevOps
+## Shift-right?  
+<br>
+<div v-click class="!text-2xl"> - Khyl! </div>
+<br>
+
+<div v-click> 
+<img src="../images/Canaryandab.drawio.svg">
+</div>
+
+---
+
+## Blue/Green deployment
+<br>
+<img src="../images/bluegreen.svg">
+
+---
+layout: image-right
+image: ../images/Acceleratebook.jpg
+backgroundSize: contain
+---
+## Prosessien mittaaminen
+
+### DORA-mittarit (Accelerate, 2018)
+
+- Lead time for changes
+- Deployment frequency
+- Mean time to restore (MTTR)
+- Change failure rate
+
+<v-clicks>
+
+ - Parhaat tiimit suoriutuvat mittareilla hyvin ja eivätkä uhraa laatua tehokkuuden nimissä!
+ - Huom! Korrelaatio vs kausaliteetti.
+    - DORA-mittarit eivät mittaa esimerkiksi asiakastyytyväisyyttä, kehittäjäkokemusta yms.
+
+</v-clicks>
+
+---
