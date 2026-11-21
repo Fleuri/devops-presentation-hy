@@ -218,3 +218,44 @@ backgroundSize: contain
 </v-clicks>
 
 ---
+layout: two-cols
+---
+
+## SPACE
+
+::left::
+
+- **S**atisfaction and well-being
+- **P**erformance
+- **A**ctivity
+- **C**ommunication and collaboration
+- **E**fficiency and flow
+
+::right::
+
+<div class="text-sm">
+
+### DORA vs SPACE
+| Aspect | DORA | SPACE |
+|---|---|---|
+| **Focus** | Software delivery performance | Developer productivity holistically |
+| **Scope** | 4–5 specific metrics | 5 dimensions with many possible metrics |
+| **Metrics** | Deployment frequency, lead time, change failure rate, time to restore | Varies by organization: satisfaction surveys, efficiency metrics, performance indicators, etc. |
+| **Purpose** | Signal: "How are we doing?" | Diagnosis: "What should we improve?" |
+| **Best for** | Benchmarking delivery capabilities | Understanding and improving developer experience |
+
+</div>
+
+<div class="abs-bl m-6 text-sm opacity-60">Source: space-framework.com</div>
+
+<!--
+S: Devaajien hyvinvointi. Työn imu, eNPS, psykologinen turvallisuus
+P: Työn tulokset. Quality metrics, customer satisfaction
+A: Työn tekeminen. Commitit, PR:t, buildit, deployt
+C: Kommunikaatio, Dokumentaation laatu, onboarding, PR:n aukiolo.
+E: Katkeamaton aika, Pipelinejen aika, WIP asioita kerrallaan.
+
+-->
+
+---
+
