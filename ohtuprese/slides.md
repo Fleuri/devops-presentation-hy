@@ -82,3 +82,34 @@ class: text-center
 ---
 
 # Questions?
+
+---
+layout: two-cols-header
+---
+
+
+## Tekoälynkäyttöilmoitus
+<br>
+
+::left::
+
+### Tekoälyä on käytetty
+
+- Skriptien generointiin
+- Osiin kuvista
+- Asetteluun
+
+::right::
+
+### Tekoälyä ei ole käytetty
+
+- Sisällön luomiseen
+- Tutkimukseen ja tiedonhakuun
+
+<style>
+.two-cols-header {
+  column-gap: 20px; /* Adjust the gap size as needed */
+}
+</style>
+
+---

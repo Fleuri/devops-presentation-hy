@@ -256,6 +256,3 @@ C: Kommunikaatio, Dokumentaation laatu, onboarding, PR:n aukiolo.
 E: Katkeamaton aika, Pipelinejen aika, WIP asioita kerrallaan.
 
 -->
-
----
-

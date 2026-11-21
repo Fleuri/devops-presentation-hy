@@ -1,0 +1,6 @@
+/* Global style for all slides: space between headings and the text below them */
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  margin-bottom: 1.5rem;
+}
