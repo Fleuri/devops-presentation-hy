@@ -136,7 +136,7 @@ backgroundSize: contain
 
 <br>
 <br>
-<div v-click class="!text-2xl">Esimerkkejä:
+<div v-click class="!text-2xl"> Esimerkkejä:
 
 * HTML Status code 2xx / Xxx
 * Tavoitevasteaika / Kaikki vasteajat
@@ -155,6 +155,7 @@ backgroundSize: contain
 </div>
 <div v-click class="!text-2xl"> - Shift-left 
 <img src="../images/shiftleft.png" class="block mx-auto max-h-[20rem] h-auto object-contain">
+<div class="abs-bl m-6 text-sm opacity-60">Lähde: https://devopedia.org/shift-left/ </div>
 </div>
 <div v-click class="!text-2xl"> - Myös: DevSecOps </div>
 
@@ -245,7 +246,7 @@ layout: two-cols
 
 </div>
 
-<div class="abs-bl m-6 text-sm opacity-60">Source: space-framework.com</div>
+<div class="abs-bl m-6 text-sm opacity-60">Lähde: space-framework.com</div>
 
 <!--
 S: Devaajien hyvinvointi. Työn imu, eNPS, psykologinen turvallisuus
