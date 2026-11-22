@@ -48,13 +48,53 @@ class: text-center
 9. Eliminoi tiimien väliset riippuvuudet
 
 ---
+layout: default
+---
 
-## The four team types
+<div class="relative inline-block h-[28rem] ml-16 mt-4">
+  <img src="../images/fourteams.svg" class="h-full w-auto" alt="Four team types" />
+  <div v-click style="position:absolute; left:100%; top:12%; margin-left:1.5rem; transform:translateY(-50%); white-space:nowrap; font-size:1.5rem;">Complicated Subsystem team</div>
+  <div v-click style="position:absolute; left:100%; top:36%; margin-left:1.5rem; transform:translateY(-50%); white-space:nowrap; font-size:1.5rem;">Stream-Aligned Team</div>
+  <div v-click style="position:absolute; left:100%; top:56%; margin-left:1.5rem; transform:translateY(-50%); white-space:nowrap; font-size:1.5rem;">Platform Team</div>
+  <div v-click style="position:absolute; left:100%; top:84%; margin-left:1.5rem; transform:translateY(-50%); white-space:nowrap; font-size:1.5rem;">Enabling Team</div>
+</div>
+
+<div class="abs-br m-6 text-3xl font-bold">Neljä tiimityyppiä</div>
+
+---
+layout: image
+image: ../images/fourteamsinaction.svg
+backgroundSize: contain
+---
+---
+layout: image-left
+image: ../images/interactionmodes.svg
+backgroundSize: contain
+---
+## Interaktiomallit
+
+<div class="text-sm">
+
+|   | Collaboration | X-as-a-Service | Facilitating |
+|---|---|---|---|
+| Stream-Aligned | Typical | Typical | Occasional |
+| Enabling | Occasional |   | Typical |
+| Complicated Subsystem | Occasional | Typical |   |
+| Platform | Occasional | Typical |   |
+
+</div>
 
 ---
 
-## Interaction modes
+## Yhteenveto
 
----
+<div class="text-2xl">
 
-## Cognitive load
+- Organisaatiot tuottavat softaa, joka heijastaa organisaation rakenteita.
+- Tiimit ovat organisaation perusyksikköjä, eivät vain kokoelma yksittäisiä ihmisiä.
+- Ohjelmistot ovat hallittavia, jos tiimit ovat hallittavia.
+- Tiimitopologiat ja interaktiomallit muuttuvat ajan saatossa.
+
+</div>
+
+<img class=image src="../images/teamtopobanner.svg">

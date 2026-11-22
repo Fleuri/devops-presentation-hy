@@ -154,9 +154,8 @@ backgroundSize: contain
 <div v-click class="!text-2xl"> - QA ja tietoturva
 </div>
 <div v-click class="!text-2xl"> - Shift-left 
-<img src="../images/shiftleft.png">
+<img src="../images/shiftleft.png" class="block mx-auto max-h-[20rem] h-auto object-contain">
 </div>
-
 <div v-click class="!text-2xl"> - Myös: DevSecOps </div>
 
 ---
