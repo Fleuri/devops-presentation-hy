@@ -71,4 +71,69 @@ Tällä slaidilla kysele yleisöltä loppukäyttäjistä ja tuotteista.
 </v-clicks>
 
 ---
-## Pitfalls
+
+## PEn etuja
+
+<v-clicks depth="2">
+
+- Devitiimit pystyvät keskittymään ydintekemiseen.
+    - Stream-aligned teams
+    - Kognitiivisen kuormituksen vähennys
+- Samoja asioita ei tehdä jatkuvasti uudestaan.
+    - Alustatiimi identifioi yhteiset tarpeet ja ratkaisee ne keskitetysti.
+- Standardisointi tehostaa.
+    - Selkeä teknologiakenttä
+    - Konsistenssi lisää luotettavuuta ja parantaa tietoturvaa.
+- Alusta voi olla kommunikaatiomedia eri tiimien välillä
+    - Esimerkiksi API-portaali
+</v-clicks>
+
+---
+
+<div class="psy-stage">
+<h2 class="psy-text">Pakollinen AI-pöhinäpsykoosiosio</h2>
+<iframe
+  v-if="$nav.currentPage === $page"
+  width="0"
+  height="0"
+  src="https://www.youtube.com/embed/FvqAvL37zjQ?autoplay=1&loop=1&playlist=FvqAvL37zjQ"
+  title="Pakollinen AI-pöhinäpsykoosiosio"
+  frameborder="0"
+  allow="autoplay; encrypted-media; picture-in-picture"
+  allowfullscreen
+></iframe>
+</div>
+
+---
+layout: image
+image: ../images/modern_sdlc_crayon.webp
+backgroundSize: contain
+---
+---
+layout: image
+image: ../images/modern_platform_scope.webp
+backgroundSize: contain
+---
+---
+layout: image
+image: ../images/modern_platform_scope_explained.webp
+backgroundSize: contain
+---
+---
+layout: image
+image: ../images/agent_harness.webp
+backgroundSize: contain
+---
+---
+layout: intro
+---
+
+# Ympyrä sulkeutuu 
+## Tappoiko Platform Engineering DevOpsin?
+
+---
+layout: iframe
+
+# the web page source
+url: https://www.devopsdays.dk/stories/devops-is-broken/
+---

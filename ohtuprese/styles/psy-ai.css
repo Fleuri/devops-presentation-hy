@@ -1,0 +1,72 @@
+/* "Pakollinen AI-pöhinäpsykoosiosio" slide: colour-shifting background, floating and colour-cycling title */
+
+/* Remove the layout padding on the slide that contains the stage so it fills the whole slide */
+.slidev-layout:has(.psy-stage) {
+    padding: 0 !important;
+}
+
+/* The stage is the full-size background and centres the title in the middle */
+.psy-stage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: psy-bg 16s ease-in-out infinite alternate;
+}
+
+@keyframes psy-bg {
+    0% {
+        background: #0f172a;
+    }
+    50% {
+        background: #4c1d95;
+    }
+    100% {
+        background: #0e7490;
+    }
+}
+
+/* Title: bigger, centred, slowly floating and changing colour.
+   The more specific selector overrides the global heading margin in index.css. */
+.psy-stage .psy-text {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    text-align: center;
+    opacity: 1;
+    /* Make sure the theme cannot hide the text (e.g. transparent colour or gradient clipping) */
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: currentColor;
+    animation: psy-text 16s ease-in-out infinite alternate,
+    psy-float 12s ease-in-out infinite;
+}
+
+@keyframes psy-float {
+    0%, 100% {
+        transform: translate(-2rem, -1rem);
+    }
+    33% {
+        transform: translate(2rem, 1rem);
+    }
+    66% {
+        transform: translate(-1rem, 1.5rem);
+    }
+}
+
+@keyframes psy-text {
+    0% {
+        color: #fde68a;
+    }
+    50% {
+        color: #f9a8d4;
+    }
+    100% {
+        color: #a7f3d0;
+    }
+}
