@@ -177,7 +177,7 @@ backgroundSize: contain
 
 - Kulttuurinen muutos
   - Laatu sisällytetty jo suunnitteluvaiheeseen
-- Test-driven Development (TDD)
+- Esim. Test-driven Development (TDD)
 - CI/CD putket
 - Moniosaajatiimit (Cross-functional teams)
   - Avainhenkilöt mukana koko prosessin ajan
