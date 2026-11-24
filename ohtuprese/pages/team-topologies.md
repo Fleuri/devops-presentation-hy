@@ -98,3 +98,7 @@ backgroundSize: contain
 </div>
 
 <img class=image src="../images/teamtopobanner.svg">
+
+<!--
+- Team Topologies ylipäätään: nostaisin varmaan että noi kommunikaatiomallit on asia mikä useissa organisaatioissa ei toimi vaikka kuinka pyritään siirtyä alustatiimeihin. Ei osata käyttää enablointia oikein, se on kovin epäformaalia usein, ja sitten ei teknisesti maturoida prosesseja XaaS malliin (tarjotaan API ja työkalut yms.). Varsinkin IT:n ulkoistus on naula arkkuun PE:n onnistumiselle
+-->

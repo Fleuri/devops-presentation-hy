@@ -142,7 +142,13 @@ backgroundSize: contain
 * Tavoitevasteaika / Kaikki vasteajat
 * Onnistuneet ostotapahtumat / Kaikki ostotapahtumat
 
+<a href="https://vkolupaev.com/sre/img/availability-cheat-sheet.webp" target="_blank" class="text-blue-600 underline">Availability Cheat Sheet </a>
 </div>
+
+<!--
+- slide 16, vois nostaa ehkä esimerkki luvuksi että AWS lupaa EC2 single-zone 99,95% ja multi-az arkkitehtuurille 99,99%, pätee kaikkiin muihinkin AWS compute palveluihin (harvalla multi-region oikeasti)
+-->
+
 ---
 
 <img src="../images/availabilitymathwithlauri.svg" class="block mx-auto h-auto max-h-[30rem] max-w-full object-contain" alt="Availability math" />
@@ -175,6 +181,7 @@ backgroundSize: contain
 - CI/CD putket
 - Moniosaajatiimit (Cross-functional teams)
   - Avainhenkilöt mukana koko prosessin ajan
+  - Two-pizza team?
 
 </div>
 
@@ -256,3 +263,9 @@ C: Kommunikaatio, Dokumentaation laatu, onboarding, PR:n aukiolo.
 E: Katkeamaton aika, Pipelinejen aika, WIP asioita kerrallaan.
 
 -->
+
+---
+layout: image
+image: ../images/devopsvenn.png
+backgroundSize: contain
+---

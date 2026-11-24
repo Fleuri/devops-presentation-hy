@@ -1,7 +1,7 @@
 ---
 theme: academic
 layout: cover
-title: DevOps, Team Topologies and Platform Engineering
+title: DevOps, Tiimitopologiat ja Platform Engineering
 info: |
   ## DevOps, Team Topologies and Platform Engineering
 coverAuthor: Lauri Suomalainen
@@ -17,7 +17,8 @@ comark: true
 duration: 35min
 ---
 
-# DevOps, Team Topologies and Platform Engineering
+# Ohjelmistotuotanto kokonaisuutena
+## Devops, Tiimitopologiat ja Platform Engineering
 
 ---
 layout: center
@@ -77,11 +78,42 @@ src: ./pages/platform-engineering.md
 ---
 
 ---
-layout: center
-class: text-center
+layout: image
+image: ../images/neandertalinlauri.jpg
+backgroundSize: cover
+class: yhteenveto-text
 ---
 
-# Questions?
+## Yhteenvetona
+
+<div class="yhteenveto-panel">
+
+<v-clicks depth="2">
+
+- DevOps
+    - Filosofinen ja kulttuurinen liike, jonka tavoitteena on purkaa IT-organisaation siiloja ja parantaa ohjelmistokehityksen laatua, nopeutta ja luotettavuutta automaatiolla ja palautesilmukoita tehostamalla sekä rakentamalla organisaatiokulttuuria joka rohkaisee kokeiluja eikä rankaise epäonnistumisista.
+- Team Topologies
+  - Tapa määritellä organisaation tiimejä ja kommunikaatiotapoja niin, että ne mahdollistavat sujuvan työnkulun. Tiimit ovat itsenäisiä entiteettejä, eivät vain kokoelma yksittäisiä ihmisiä.
+- Platform Engineering
+  - Tapa organisoida ohjelmistokehityksen tarvitsemia tukevia työkaluja ja infrastruktuuria niin, että kehitystiimit voivat keskittyä ydintehtäviinsä.
+
+</v-clicks>
+
+</div>
+
+<style>
+.yhteenveto-text {
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+}
+.yhteenveto-panel {
+  background: rgba(0, 0, 0, 0.72);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.75rem;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+</style>
 
 ---
 layout: two-cols-header
